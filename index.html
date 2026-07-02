@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaTech Software</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">NovaTech</h1>
+
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-texto">
+        <span class="etiqueta">Empresa de software</span>
+        <h2>Desarrollamos soluciones digitales para hacer crecer tu negocio</h2>
+        <p>
+          Creamos páginas web, sistemas de gestión, aplicaciones y herramientas digitales
+          pensadas para empresas modernas.
+        </p>
+        <a href="#contacto" class="btn">Solicitar presupuesto</a>
+      </div>
+
+      <div class="hero-card">
+        <h3>Software a medida</h3>
+        <p>Diseño moderno, código limpio y soluciones escalables.</p>
+      </div>
+    </section>
+
+    <section class="servicios" id="servicios">
+      <h2>Nuestros servicios</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Desarrollo Web</h3>
+          <p>Landing pages, sitios institucionales y plataformas web profesionales.</p>
+        </article>
+
+        <article class="card">
+          <h3>Sistemas de Gestión</h3>
+          <p>Software para administrar ventas, clientes, stock, turnos y procesos internos.</p>
+        </article>
+
+        <article class="card">
+          <h3>Aplicaciones</h3>
+          <p>Apps modernas, rápidas y adaptadas a las necesidades de cada empresa.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="beneficios" id="beneficios">
+      <h2>¿Por qué elegirnos?</h2>
+
+      <div class="beneficios-grid">
+        <div>
+          <h3>✔ Atención personalizada</h3>
+          <p>Analizamos cada proyecto para ofrecer la mejor solución.</p>
+        </div>
+
+        <div>
+          <h3>✔ Diseño responsive</h3>
+          <p>Tu sitio se verá perfecto en celular, tablet y computadora.</p>
+        </div>
+
+        <div>
+          <h3>✔ Tecnología moderna</h3>
+          <p>Usamos herramientas actuales para crear productos rápidos y seguros.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+      <h2>Contactanos</h2>
+      <p>Completá el formulario y te responderemos a la brevedad.</p>
+
+      <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre completo" />
+        <span class="error" id="errorNombre"></span>
+
+        <input type="email" id="email" placeholder="Correo electrónico" />
+        <span class="error" id="errorEmail"></span>
+
+        <input type="text" id="telefono" placeholder="Teléfono" />
+        <span class="error" id="errorTelefono"></span>
+
+        <textarea id="mensaje" placeholder="Contanos sobre tu proyecto"></textarea>
+        <span class="error" id="errorMensaje"></span>
+
+        <button type="submit">Enviar consulta</button>
+
+        <p id="mensajeExito"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 NovaTech Software - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="validar.js"></script>
+</body>
+</html>
